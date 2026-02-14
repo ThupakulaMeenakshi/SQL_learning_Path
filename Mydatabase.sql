@@ -62,3 +62,4 @@ where not customerName='sam';
 select * from customer
 where customerName='Durga' and (salary>30000 or salary<60000);
 select *from customer
+order by postalcode;
