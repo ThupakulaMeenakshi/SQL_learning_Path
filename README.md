@@ -3,3 +3,5 @@
 ## Progress
 
 Day 01 - SELECT Statement
+
+Day 02 - WHERE Clause  
