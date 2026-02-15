@@ -63,3 +63,28 @@ select * from customer
 where customerName='Durga' and (salary>30000 or salary<60000);
 select *from customer
 order by postalcode;
+select * from customer order by salary asc;
+select * from customer order by postalcode,salary, customerID,customerName desc;
+select * from customer order by postalcode ASC, salary DESC;
+insert into customer
+values 
+(4,'Mahima',48000,'lalacheruvu','Rajahmundry-rural',533123,'india'),
+(5,'Sham',36000,'Diwancheruvu','Rajahmundry-rural',533118,'india'),
+(6,'Sravya',16000,'prakashnagar','Korukonda',533131,'india');
+select * from customer;
+insert into customer(customerID,customerName,salary)
+values(7,'Harika',18000);
+update customer
+set customerID=8,customerName='Likitha',salary=19000,Address='Devichowk',city='Kakinada',postalcode=501156,country='india'
+where customerID=4;
+select top 4 * from customer
+update customer
+set customerID=4,customerName='Sai',salary=15000,Address='AVA road',city='Rajhmundry',postalcode=511201,country='india';
+delete from customer;
+delete from customer 
+where customerName='Harika'or salary=16000;
+select * from customer;
+select top 4 * from customer;
+select top 3 percent salary
+from customer
+where salary>10000;
