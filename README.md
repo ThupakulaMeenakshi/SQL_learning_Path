@@ -9,3 +9,5 @@ Day 02 - Order By
 Day 03 - Functions
 
 Day 04 - In,Between,Not Between,Alias
+
+Dy 05 - Left,Right,Full,Inner joins in SQL
